@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(236, 236, 236);
+    line-height: 150%;
+}
+
+.headerImage {
+    width: 100%;
+    height: 350px;
+
+    background-image: url(../img/lakeSkadar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 70%;
+}
+
+.unsplashLogo img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+body>main {
+    display: flex;
+    justify-content: center;
+}
+
+article>main {
+    padding: 0 30px;
+    padding-top: 40px;
+}
+
+article>footer {
+    padding: 40px 30px;
+    text-align: right;
+}
+
+article>.unsplashLogo {
+    padding: 10px 30px;
+    max-width: 208px;
+}
+
+article * {
+    background-color: white;
+}
+
+article {
+    max-width: 1366px;
+}
+
+.download {
+    grid-column-start: 2;
+    grid-row: 1/span 2;
+    text-align: right;
+
+    align-self: center;
+}
+
+article .imageInfo {
+    padding: 0 30px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70% 30%;
+}
+
+.download button {
+    background-image: url(../img/buttonDownload_normal.svg);
+    background-repeat: ;
+    border: 0;
+    border-radius: 20px;
+    outline: 0;
+
+    cursor: pointer;
+
+    min-width: 288px;
+    min-height: 47px;
+}
+
+.download button:hover {
+    background-image: url(../img/buttonDownload_hover.svg);
+    border: 0;
+    outline: 0;
+}
+
+.download button:active {
+    background-image: url(../img/buttonDownload_active.svg);
+    border: 0;
+    outline: 0;
+}
+
+p {
+    margin: 0;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+button.upwards {
+    background-image: url(../img/buttonUp_normal.svg);
+
+    border: 0;
+    border-radius: 20px;
+    outline: 0;
+
+    cursor: pointer;
+
+    width: 48px;
+    height: 48px;
+}
+
+button.upwards:hover {
+    background-image: url(../img/buttonUp_hover.svg);
+    border: 0;
+    outline: 0;
+}
+
+button.upwards:active {
+    background-image: url(../img/buttonUp_active.svg);
+    border: 0;
+    outline: 0;
+}
